@@ -1,10 +1,12 @@
 ---
 title: "Template Post"
-date: "2005-05-26"
+date: "1950-05-5"
 author: "Kossman"
-description: "A template for creating new posts."
+description: "Do not pay any attention to this post, please."
 tags:
-  - template
+    - template
+    - markdown
+    - example
 ---
 
 ## Introduction
