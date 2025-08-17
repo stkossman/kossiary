@@ -1,5 +1,5 @@
 ---
-title: "Soul of CSS: New Update"
+title: "Soul of CSS: Update #1"
 date: "2025-08-16"
 author: "Kossman"
 description: "Latest updates to the Soul of CSS, feat. new elements, colors."
@@ -25,11 +25,11 @@ This release brings new elements, refined colors and some mixin shit for legacy 
 
 - **Lists** element. A new component for stylized lists. The idea for lists came from target-lock dot from Dark Souls 3. [lists.scss](https://github.com/stkossman/soul-of-css/blob/main/scss/elements/lists.scss)
 
-<img src="https://i.ibb.co/dw3XXbww/image.png" alt="image" border="0">
+![Lists Demo](https://i.ibb.co/dw3XXbww/image.png)
 
 - **Legacy** elements. Added classic UI components (at least I tried). Plan to add more legacy components along with my ideas for styling.
 
-<img src="https://i.ibb.co/JWcyZfKB/image-2025-08-16-224346228.png" alt="image-2025-08-16-224346228" border="0">
+![Legacy Elements](https://i.ibb.co/JWcyZfKB/image-2025-08-16-224346228.png)
 
 ### Refinements
 
