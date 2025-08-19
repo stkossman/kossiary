@@ -1,5 +1,5 @@
 ---
-title: "Soul of CSS: Update #2"
+title: "Soul of CSS: Update 1.3.0"
 date: "2025-08-17"
 author: "Kossman"
 description: "Latest updates to the Soul of CSS."
