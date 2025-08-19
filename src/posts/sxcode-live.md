@@ -15,7 +15,7 @@ tags:
 
 ## Introduction
 
-**SyntxCode** is finally live! You can open the [https://syntxcode.vercel.app](demo page) and see how it works.
+**SyntxCode** is finally live! You can open the [demo page](https://syntxcode.vercel.app) and see how it works.
 
 ---
 
