@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-export default function PostCard({ slug, title, date, description }) {
+export default function PostCard({ slug, title, date, description, tags }) {
     const postDate = new Date(date);
     const monthNames = [
         'JANUARY', 'FEBRUARY', 'MARCH', 'APRIL', 'MAY', 'JUNE',
@@ -9,6 +9,8 @@ export default function PostCard({ slug, title, date, description }) {
 
     const month = monthNames[postDate.getMonth()];
     const year = postDate.getFullYear();
+
+    const displayTags = tags && tags.length > 0 ? tags.slice(0, 3) : [];
 
     return (
         <article className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-800/30 via-gray-700/20 to-gray-600/10 border border-gray-600/30 hover:border-gray-500/50 transition-all duration-300">
@@ -28,6 +30,19 @@ export default function PostCard({ slug, title, date, description }) {
                 <p className="text-gray-300 text-sm mb-6 flex-grow line-clamp-4 leading-relaxed">
                     {description}
                 </p>
+
+                {displayTags.length > 0 && (
+                    <div className="flex flex-wrap gap-1 mb-2">
+                        {displayTags.map((tag) => (
+                            <span
+                                key={tag}
+                                className="inline-block bg-rose-400/20 text-rose-300 text-xs font-medium px-2 py-1 rounded-full border border-rose-400/30"
+                            >
+                                {tag}
+                            </span>
+                        ))}
+                    </div>
+                )}
 
                 <div className="flex justify-end">
                     <Link
