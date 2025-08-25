@@ -16,6 +16,7 @@ tags:
 
 **Soul of CSS** latest update - new table component. I tried to keep it simple while keeping Souls-like design.
 ![Table Component](https://i.ibb.co/gLR90BHz/image-2025-08-22-203017020.png)
+
 ---
 
 ## What's New?

@@ -15,6 +15,7 @@ tags:
 ## Introduction
 
 **Soul of CSS** latest tiny update (patch) - changes in `reboot.scss` and documentation.
+
 ---
 
 ## What's New?
