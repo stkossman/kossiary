@@ -13,21 +13,17 @@ export default function PostCard({ slug, title, date, description, tags }) {
     const displayTags = tags && tags.length > 0 ? tags.slice(0, 3) : [];
 
     return (
-        <article className="group relative overflow-hidden rounded-xl bg-gradient-to-br from-gray-800/30 via-gray-700/20 to-gray-600/10 border border-gray-600/30 hover:border-gray-500/50 transition-all duration-300">
+        <article className="group relative overflow-hidden rounded-xl bg-neutral-900 border border-neutral-800 hover:border-neutral-700 transition-all duration-300">
             <div className="p-8 h-full flex flex-col">
-                <div className="mb-4">
-                    <span className="text-gray-400 text-xs font-semibold tracking-wide uppercase">
-                        {month} {year}
-                    </span>
-                </div>
+                <span className="text-gray-500 text-xs uppercase mb-4">{month} {year}</span>
 
-                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-rose-200 transition-colors line-clamp-3">
-                    <Link href={`/posts/${slug}`} className="hover:text-rose-200">
+                <h3 className="text-xl font-bold mb-4 text-white group-hover:text-gray-200 transition-colors">
+                    <Link href={`/posts/${slug}`} className="hover:text-gray-200">
                         {title}
                     </Link>
                 </h3>
 
-                <p className="text-gray-300 text-sm mb-6 flex-grow line-clamp-4 leading-relaxed">
+                <p className="text-gray-300 text-sm mb-6 flex-grow">
                     {description}
                 </p>
 
@@ -36,10 +32,10 @@ export default function PostCard({ slug, title, date, description, tags }) {
                         {displayTags.map((tag) => (
                             <span
                                 key={tag}
-                                className="inline-block bg-rose-400/20 text-rose-300 text-xs font-medium px-2 py-1 rounded-full border border-rose-400/30"
+                                className="inline-block bg-neutral-800 text-gray-200 text-xs px-2 py-1 rounded-full border border-neutral-700"
                             >
-                                {tag}
-                            </span>
+                        {tag}
+                    </span>
                         ))}
                     </div>
                 )}
@@ -47,20 +43,10 @@ export default function PostCard({ slug, title, date, description, tags }) {
                 <div className="flex justify-end">
                     <Link
                         href={`/posts/${slug}`}
-                        className="w-8 h-8 flex items-center justify-center rounded-full border border-rose-400/40 text-rose-400 hover:border-rose-300 hover:text-rose-300 transition-all duration-200 group-hover:scale-110"
+                        className="w-8 h-8 flex items-center justify-center rounded-full border border-gray-600 text-gray-400 hover:border-gray-400 hover:text-white transition-all duration-200 group-hover:scale-110"
                     >
-                        <svg
-                            className="w-4 h-4"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={2}
-                                d="M9 5l7 7-7 7"
-                            />
+                        <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                         </svg>
                     </Link>
                 </div>

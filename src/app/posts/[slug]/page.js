@@ -14,7 +14,7 @@ export default async function PostPage({ params: {slug} }) {
         <div className="pb-16">
             <Link
                 href="/"
-                className="inline-flex items-center text-gray-400 hover:text-rose-200 transition-colors mb-8"
+                className="inline-flex items-center text-gray-400 hover:text-gray-200 transition-colors mb-8"
             >
                 <span className="mr-2">←</span> Back to Home
             </Link>
