@@ -22,6 +22,9 @@ export default function Layout({children}) {
                         <Link href="/" className="block text-gray-300 hover:text-white transition-colors font-medium">
                             Home
                         </Link>
+                        <Link href="/theories" className="block text-gray-300 hover:text-white transition-colors font-medium">
+                            Crazy Theories
+                        </Link>
                         <Link href="/about" className="block text-gray-300 hover:text-white transition-colors font-medium">
                             About
                         </Link>
