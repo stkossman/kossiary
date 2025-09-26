@@ -6,7 +6,7 @@ tags: [noob, games, psychology, work, team, systems]
 madnessLevel: 8
 ---
 
-## What is it "noob" theory?
+## What is the "Noob" Paradox?
 
 The "Noob" Paradox emerged from the Dota 2 community, popularized by streamer and commentator Nix ([Twitch](https://www.twitch.tv/nix)).
 It describes a counterintuitive phenomenon where a player who makes seemingly wrong decisions (the team's "anchor") eventually becomes valuable through unexpected circumstances.
